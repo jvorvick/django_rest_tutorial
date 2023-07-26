@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class SnippitsConfig(AppConfig):
+class SnippetsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'snippits'
+    name = 'snippets'
