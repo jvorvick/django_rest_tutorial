@@ -1,3 +1,9 @@
+import os
+import django
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_rest_tutorial.settings')
+django.setup()
+
 from snippets.models import Snippet
 from snippets.serializers import SnippetSerializer
 from rest_framework.renderers import JSONRenderer
